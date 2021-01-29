@@ -2,11 +2,6 @@ package com.demo.bean;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/**
- * @Description TODO
- * @Author liuyang
- * @Date 2021/1/28
- */
 public class Saying {
     private Integer id;
     private String content;

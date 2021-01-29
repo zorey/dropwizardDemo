@@ -7,11 +7,6 @@ import io.dropwizard.db.DataSourceFactory;
 import javax.validation.constraints.NotEmpty;
 import java.util.Optional;
 
-/**
- * @Description TODO
- * @Author liuyang
- * @Date 2021/1/27
- */
 public class HelloConfiguration extends Configuration {
 
     @NotEmpty

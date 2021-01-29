@@ -9,11 +9,6 @@ import io.dropwizard.jdbi3.JdbiFactory;
 import io.dropwizard.setup.Environment;
 import org.jdbi.v3.core.Jdbi;
 
-/**
- * @Description TODO
- * @Author liuyang
- * @Date 2021/1/28
- */
 public class HelloApplication extends Application<HelloConfiguration> {
     @Override
     public void run(HelloConfiguration config, Environment environment) throws Exception {

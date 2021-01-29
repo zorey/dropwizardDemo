@@ -12,11 +12,6 @@ import javax.ws.rs.core.MediaType;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @Description TODO
- * @Author liuyang
- * @Date 2021/1/28
- */
 @Path("/api")
 @Produces(MediaType.APPLICATION_JSON)
 public class HelloResource {

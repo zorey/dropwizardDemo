@@ -7,11 +7,6 @@ import org.jdbi.v3.sqlobject.customizer.BindBean;
 import org.jdbi.v3.sqlobject.statement.SqlQuery;
 import org.jdbi.v3.sqlobject.statement.SqlUpdate;
 
-/**
- * @Description TODO
- * @Author liuyang
- * @Date 2021/1/28
- */
 public interface UserDao {
 
     @RegisterBeanMapper(Saying.class)
